@@ -1,0 +1,46 @@
+$primaryFont: 'Ubuntu', sans-serif;
+$secondaryFont: 'Ubuntu', sans-serif;
+
+body {
+    background-color: #EEF5FF;
+    font-family: $secondaryFont;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: $secondaryFont;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+button {
+    border: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #2b3252;
+}
+
+img {
+    vertical-align: top;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input:focus {
+    outline: none;
+}

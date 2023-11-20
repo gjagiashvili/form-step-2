@@ -1,0 +1,58 @@
+.sidebar-wrapper {
+  height: 100%;
+  width: 314px;
+
+  figure {
+    position: absolute;
+    padding: 20px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  .sidebar-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 60px 0 0 50px;
+
+    .step-info {
+      display: flex;
+      gap: 16px;
+
+      .active {
+        background-color: #BCDEFA;
+        color: #2b3252 !important;
+      }
+
+      .step-numb-wrapper {
+        border: 1px solid #ffffff;
+        color: #ffffff;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+
+        span {
+          font-weight: bold;
+        }
+
+      }
+      .step-info-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3px;
+        p {
+          color: #8A89FF;
+        }
+        h3 {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
